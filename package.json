@@ -1,0 +1,31 @@
+{
+  "name": "next-auth-aspnetcore-adapter",
+  "version": "0.0.1",
+  "description": "A next-auth adapter for ASP.Net Core Identity",
+  "repository": "https://github.com/fergalmoran/next-auth-aspnetcore-adapter",
+  "author": "Fergal Moran",
+  "type": "module",
+  "types": "./index.d.ts",
+  "files": [
+    "*.js",
+    "*.d.ts*",
+    "lib",
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Next Auth",
+    "ASP.Net Core",
+    ".NET Core",
+    "Identity"
+  ]
+}
